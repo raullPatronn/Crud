@@ -1,25 +1,42 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import inicio from './components/inicio.vue'
+import abajo from './components/abajo.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  <header class="bg-blue-300">
+    
+    <img alt="ISCLAB Logo" class="logo w-1/4 h-24" src="./assets/isclab.png"/>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
+    <nav class="menu  ">
+    <ul>
+    <li><a href="#" class="hover:-translate-y-1 hover:scale-110 duration-300">Principal</a></li>
+    <li><a href="#" class="hover:-translate-y-1 hover:scale-110 duration-300">Ver Proyectos</a></li>
+    <li><a href="#" class="hover:-translate-y-1 hover:scale-110 duration-300">Contacto</a></li>
+    </ul>
+    </nav>
   </header>
 
-  <main>
-    <TheWelcome />
+  <main class="bg-cyan-900">
+    <inicio/>
   </main>
+  <aside class="bg-gray-200">
+    <abajo/>
+  </aside>
+
+  <footer>
+    
+  </footer>
 </template>
 
 <style scoped>
 header {
   line-height: 1.5;
+}
+.menu li {
+  display: inline-flex;
+  margin-left: 80px;
+  font-size: 20px;
 }
 
 .logo {
