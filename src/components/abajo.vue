@@ -17,7 +17,7 @@ import Item from './Item.vue'
   <div class="max-w-sm rounded overflow-hidden shadow-lg bg-amber-600 border border-black " style="margin: 30px 10px 10px 0px">
   
   <div class="px-6 py-4">
-    <img src="./assets/sitweb.svg" alt="sitio web" class="w-36 float-left mr-5">
+    
     <div class="font-bold text-xl mb-2 text-cyan-900">Sitios Web</div>
     <p class="text-base text-cyan-900">
       <b>Los sitios web son lo que conocemos comúnmente por "página web".</b>
@@ -35,7 +35,7 @@ import Item from './Item.vue'
     <div class="max-w-sm rounded overflow-hidden shadow-lg bg-amber-600 border border-black" style="margin: 30px 10px 10px 0px">
   
   <div class="px-6 py-4">
-    <img src="./assets/sitweb.svg" alt="sitio web" class="w-36 float-left mr-5">
+    
     <div class="font-bold text-xl mb-2 text-cyan-900">Aplicaciones Web</div>
     <p class="text-base text-cyan-900">
       <b>Son como los sitios web, pero estos además pueden manipular datos.</b>
