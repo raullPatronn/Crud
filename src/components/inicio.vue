@@ -12,7 +12,7 @@ import Item from './Item.vue'
     <br>
     <p class="text-white text-m">
     Somos un equipo de laboratorio que busca el desarrollo de nuestros estudiantes a través de la creación de proyectos que sean útiles a la sociedad.
-    <a class="text-amber-600" href="#">¿Tienes un proyecto en mente?</a> 
+    <a class="text-amber-600" href="#">¿Tienes un proyecto en mente? </a> 
     <p>Compártelo con nosotros y buscaremos la manera de ayudarte.</p>
     </p>
    </div>
